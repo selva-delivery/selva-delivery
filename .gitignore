@@ -1,0 +1,16 @@
+# Ignore all subdirectories (individual repos)
+selva-api/
+selva-mobile/
+selva-web/
+selva-ui/
+selva-docs/
+selva-infra/
+
+# Ignore temp files
+*.zip
+tmpclaude-*
+archivos/
+
+# Claude local settings
+.claude/
+.vscode/
