@@ -22,7 +22,7 @@ GitHub Organization: selva-delivery/
 | Repository | Description | Status | CLAUDE.md |
 | ---------- | ----------- | ------ | --------- |
 | [selva-api](https://github.com/selva-delivery/selva-api) | Backend GraphQL API (Python/FastAPI) | Module 6 Complete (565 tests, 80% coverage) | [View](./selva-api/CLAUDE.md) |
-| [selva-mobile](https://github.com/selva-delivery/selva-mobile) | Mobile app (React Native/Expo) | In Development | [View](./selva-mobile/CLAUDE.md) |
+| [selva-mobile](https://github.com/selva-delivery/selva-mobile) | Mobile app (React Native/Expo) | Auth + Consumer Flow (214 tests) | [View](./selva-mobile/CLAUDE.md) |
 | [selva-web](https://github.com/selva-delivery/selva-web) | Admin panel (React) | Pending | [View](./selva-web/CLAUDE.md) |
 | [selva-ui](https://github.com/selva-delivery/selva-ui) | Design system (Turborepo) | v2.0.0 Published | [View](./selva-ui/CLAUDE.md) |
 | selva-docs | Documentation + GraphQL schema | Active | [View](./selva-docs/CLAUDE.md) |
@@ -93,7 +93,10 @@ npm install @selva-delivery/tokens @selva-delivery/ui-web
 ### Phase 2: Consumer (IN PROGRESS)
 
 - [x] selva-api: Catalog, Cart, Orders APIs
-- [ ] selva-mobile: Home, search, cart, checkout, tracking
+- [x] selva-mobile: Multi-role auth (roles[], activeRole, RoleSwitcher)
+- [x] selva-mobile: WelcomeScreen + LoginScreen (Rappi-style)
+- [x] selva-mobile: Home, search, cart, checkout
+- [ ] selva-mobile: Real-time order tracking
 
 ### Phase 3: Deliverer
 
