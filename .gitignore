@@ -12,6 +12,10 @@ selva-infra/
 tmpclaude-*
 archivos/
 
-# Claude local settings
-.claude/
+# Claude Code - ignore local settings, keep agents/skills
+.claude/*
+!.claude/agents/
+!.claude/skills/
+
+# IDE
 .vscode/
