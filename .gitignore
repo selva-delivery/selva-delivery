@@ -1,6 +1,7 @@
 # Ignore all subdirectories (individual repos)
 selva-api/
 selva-mobile/
+selva-platform/
 selva-web/
 selva-ui/
 selva-docs/
